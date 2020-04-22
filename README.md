@@ -1,4 +1,4 @@
-# springer-textbooks
+# Springer textbooks webscraper
 
 This is a webscraper to download the FREE Springer textbooks from the [Springer website](https://docs.google.com/spreadsheets/d/1JG1J1pynfh0NLWVsDX8Y9MhJoHSVoQX95IrU9uv4Qnw/edit#gid=1612330180). These textbooks are available until July.
 
