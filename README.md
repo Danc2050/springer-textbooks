@@ -12,6 +12,8 @@ This is a webscraper to download the FREE Springer textbooks from the [Springer 
 
 3) run `python3 download.py` to begin the download and see the output.
 
+4) open the `ebooks` folder that is created and your downloads should be present.
+
 # System Requirements
 One must be running a system that has `wget` installed.
 
