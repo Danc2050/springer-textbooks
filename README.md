@@ -6,7 +6,7 @@ This is a webscraper to download the FREE Springer textbooks from the [Springer 
 
 # To Run the program
 
-1) Enter the `OpenURL` links from the Excel spreadsheet in the `books.txt`.
+1) Enter the `OpenURL` links from the Excel spreadsheet in the `books.txt`. (Currently the books inside here are all the Computer Science books in the Excel spreadsheet).
 
 2) run `pip install -r requirements.txt` to install BeautifulSoup dependency.
 
