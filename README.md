@@ -2,7 +2,7 @@
 
 This is a webscraper to download the FREE Springer textbooks from the [Springer website](https://docs.google.com/spreadsheets/d/1JG1J1pynfh0NLWVsDX8Y9MhJoHSVoQX95IrU9uv4Qnw/edit#gid=1612330180). These textbooks are available until July.
 
-This program differs from other projects
+This program differs from other projects. Namely, that it does not download the `.epub` extensions -- only the PDF. It also is a webscraper, unlike the leading popular Python port of this type of program which downloads the scripts based on their url.
 
 # To Run the program
 
