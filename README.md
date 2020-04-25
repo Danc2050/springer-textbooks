@@ -2,30 +2,30 @@
 
 This is a webscraper to download the FREE Springer textbooks from the [Springer website](https://docs.google.com/spreadsheets/d/1JG1J1pynfh0NLWVsDX8Y9MhJoHSVoQX95IrU9uv4Qnw/edit#gid=1612330180). These textbooks are available until July.
 
-**WARNING** This has only been tested on the Computer Science section of textbooks. Not all links may be setup the same on the Springer website, and in such a case this program will fail. There is also an issue with titles that have a `/` in them (see *Known Bugs* section below)
+This program differs from other projects
 
 # To Run the program
 
-1) Enter the `OpenURL` links from the Excel spreadsheet in the `books.txt`. (Currently the books inside here are all the Computer Science books in the Excel spreadsheet).
+1) Currently the books inside here are all the `.pdf` books in the Excel spreadsheet. If you would like to only download certain books, 
+add links from the `OpenURL` tab in the Excel spreadsheet into the `books.txt` file.
 
-2) run `pip install -r requirements.txt` to install BeautifulSoup dependency.
+2) run `pip install -r requirements.txt` to install BeautifulSoup and the wget dependency.
 
 3) run `python3 download.py` to begin the download and see the output.
 
 4) open the `ebooks` folder that is created and your downloads should be present.
 
 # System Requirements
-One must be running a system that has `wget` installed.
+Windows, macOS, or Linux
 
 # Known Bugs
 On each download, this program renames the filename to the title of the respective textbook.
-This is fine, but when a `/` exists there is an error. This scraper truncates the name of the textbook before the `/` to complete the download.
+This is fine, but when a `/` exists there is an error. This scraper modifies the title to a `/` to remove the error.
 
 # Improvements
-There are many improvements that can be done such as:
-
 1) continuing to the next link after failure:
 
-2) not shutting the program done if it fails
+# Thanks
 
-3) verifying that this program works on all links published by Springer
+Thanks to Teal Dulcet for coming up with a better `/` solution than mine, as well as alerting me to an issue regarding duplicate book titles + authors
+which caused some books to be overwritten.
